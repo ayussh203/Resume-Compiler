@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "basics": {
+    "fullName": "Harsh Gupta",
+    "email": "harsh@example.com",
+    "phone": "9999999999",
+    "location": "Bangalore, India",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/example" }
+    ]
+  },
+  "headline": "Backend Engineer | Java | Kafka | Redis",
+  "summary": "Backend-focused engineer building scalable services and async pipelines.",
+  "skills": ["Java", "Spring Boot", "Kafka", "Redis", "Postgres", "Docker"],
+  "experience": [
+    {
+      "id": "exp_1",
+      "company": "FealtyX",
+      "role": "SDE Intern",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01",
+      "bullets": [
+        { "id": "b1", "text": "Built segmentation upload pipeline using CSV ingestion and validations." },
+        { "id": "b2", "text": "Implemented offer creation flow with audit logging and error handling." }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "name": "CloudDrive",
+      "tech": ["Spring Boot", "Postgres", "S3"],
+      "bullets": [
+        { "id": "pb1", "text": "Designed file metadata service with versioning and signed URL uploads." }
+      ],
+      "links": []
+    }
+  ],
+  "education": [
+    {
+      "school": "ITER College",
+      "degree": "B.Tech CSE",
+      "startDate": "2022-08-01",
+      "endDate": "2026-05-01"
+    }
+  ]
+}
